@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import axios from 'axios';
 
 function App() {
+  const [userName, setUserName] = useState<any>('')
+  const [password, setPassword] = useState<any>('')
+  const handleLogin = () => {
+    axios.post('https://defzone.net/api/user/password-sign-in', {userName, password}).then(response => {
+      console.log(response)
+    })
+  }
   return (
     <div className="App">
       <header className="App-header">
@@ -19,6 +27,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <input type="text" onChange={(e: any) => setUserName(e.target.value) }/>
+      <input type="text" onChange={(e: any) => setPassword(e.target.value) }/>
+      <button onClick={handleLogin}>zzzzzzzzzzz</button>
     </div>
   );
 }
