@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/potato/static/css/main.073c9b0a.css",
+    "main.js": "/potato/static/js/main.e3cfe0e9.js",
+    "static/js/787.e663cfea.chunk.js": "/potato/static/js/787.e663cfea.chunk.js",
+    "static/media/logo.svg": "/potato/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/potato/index.html",
+    "main.073c9b0a.css.map": "/potato/static/css/main.073c9b0a.css.map",
+    "main.e3cfe0e9.js.map": "/potato/static/js/main.e3cfe0e9.js.map",
+    "787.e663cfea.chunk.js.map": "/potato/static/js/787.e663cfea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.e3cfe0e9.js"
+  ]
+}
